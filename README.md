@@ -1,27 +1,19 @@
 # FrontgRPC
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+## Extensions
 
-## Development server
+zxh404.vscode-proto3
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Packages
 
-## Code scaffolding
+É necessário instalar o pacote de Protocol Buffers
+Link: https://github.com/protocolbuffers/protobuf/releases
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Extraia os arquivos e adicione o executável as variáveis de ambiente da sua máquina.
 
-## Build
+Instale os seguintes pacotes no seu projeto:
+@improbable-eng/grpc-web
+google-protobuf
+ts-protoc-gen
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-D @types/google-protobuf
