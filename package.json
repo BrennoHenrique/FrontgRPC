@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "compile": "protoc --plugin=D:/Brenno/Projects/ForStudies/gRPC/FrontgRPC/node_modules/.bin/protoc-gen-ts.cmd --js_out=import_style=commonjs,binary:D:/Brenno/Projects/ForStudies/gRPC/FrontgRPC --ts_out=service=grpc-web:D:/Brenno/Projects/ForStudies/gRPC/FrontgRPC src/app/protos/Auth.proto"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,10 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "google-protobuf": "^3.19.4",
     "rxjs": "~7.5.0",
+    "ts-protoc-gen": "^0.15.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -26,6 +30,7 @@
     "@angular-devkit/build-angular": "~13.2.2",
     "@angular/cli": "~13.2.2",
     "@angular/compiler-cli": "~13.2.0",
+    "@types/google-protobuf": "^3.15.5",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~4.0.0",
