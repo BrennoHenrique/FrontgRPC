@@ -8,8 +8,9 @@ zxh404.vscode-proto3
 
 É necessário instalar o pacote de Protocol Buffers
 Link: https://github.com/protocolbuffers/protobuf/releases
+Assets -> protoc-3.19.4-win64.zip
 
-Extraia os arquivos e adicione o executável as variáveis de ambiente da sua máquina.
+Extraia os arquivos e adicione o executável (bin -> protoc.exe) as variáveis de ambiente da sua máquina.
 
 Instale os seguintes pacotes no seu projeto:
 @improbable-eng/grpc-web
