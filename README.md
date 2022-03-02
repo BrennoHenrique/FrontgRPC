@@ -12,6 +12,8 @@ Assets -> protoc-3.19.4-win64.zip
 
 Extraia os arquivos e adicione o executável (bin -> protoc.exe) as variáveis de ambiente da sua máquina.
 
+![image](https://user-images.githubusercontent.com/57415712/156374294-3e0dd496-ab09-4d33-b2e5-3ac4c369671d.png)
+
 Instale os seguintes pacotes no seu projeto:
 @improbable-eng/grpc-web
 google-protobuf
