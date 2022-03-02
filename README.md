@@ -25,3 +25,5 @@ ts-protoc-gen
 
 Adicione o script no arquivo package.json:
 "compile": "protoc --plugin={DIR raiz}/node_modules/.bin/protoc-gen-ts.cmd --js_out=import_style=commonjs,binary:{DIR raiz} --ts_out=service=grpc-web:{DIR raiz} src/app/protos/{Arquivo proto que deseja gerar o client service}"
+
+Este script gera o client service e seus modelos.
