@@ -3,6 +3,7 @@
 ## Extensions
 
 zxh404.vscode-proto3
+Essa extension deixa os arquivos .proto mais bonitos.
 
 ## Packages
 
